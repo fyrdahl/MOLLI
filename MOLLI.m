@@ -65,6 +65,6 @@ low = c - w / 2;
 high = c + w / 2;
 
 figure(99);
-imshow(fliplr(permute(t1,[1 2])),[low high]);
+imshow(t1,[low high]);
 colormap(jet); % I'm guessing the MyoMaps colormap is copyrighted, so let's go with something else...
 axis image;
